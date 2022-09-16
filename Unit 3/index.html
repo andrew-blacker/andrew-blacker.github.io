@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Intro to Web Unit 3 Project</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<header>
+  <h1>Dynamic Image Gallery</h1>
+  <h3> Resize your web browser to discover new Star Wars characters! </h3>
+  <hr>
+</header>
+
+<main>
+ <h3>Droids</h3> 
+  <picture>
+     <source media="(min-width: 769px)" srcset="/images/Droid1.jpg" style="width:200px; height:200px;">
+     <source media="(min-width: 426px)" srcset="/images/Droid2.jpg" style="width:200px; height:200px;">
+     <source media="(min-width: 321px)" srcset="/images/Droid3.jpg" style="width:200px; height:200px;">
+     <img src="/images/Droid4.jpg" style="width:200px; height:200px;">
+    </picture>
+  
+  <hr>
+
+<h3>Jedi</h3> 
+  <picture>
+     <source media="(min-width: 769px)" srcset="/images/Jedi1.jpg" style="width:200px; height:200px;">
+     <source media="(min-width: 426px)" srcset="/images/Jedi2.jpg" style="width:200px; height:200px;">
+     <source media="(min-width: 321px)" srcset="/images/Jedi3.jpg" style="width:200px; height:200px;">
+     <img src="/images/Jedi4.jpg" style="width:200px; height:200px;">
+    </picture>
+  
+  <hr>
+
+  <h3>Sith</h3> 
+  <picture>
+     <source media="(min-width: 769px)" srcset="/images/Sith1.jpg" style="width:200px; height:200px;">
+     <source media="(min-width: 426px)" srcset="/images/Sith2.jpg" style="width:200px; height:200px;">
+     <source media="(min-width: 321px)" srcset="/images/Sith3.jpg" style="width:200px; height:200px;">
+     <img src="/images/Sith4.jpg" style="width:200px; height:200px;">
+    </picture>
+  
+  <hr>
+  
+</main>
+
+<footer>
+ <center>
+   &copy;<i> 2022 Andrew Blacker</i>
+ </center> 
+</footer>
+  
+</body>
+
+</html>
