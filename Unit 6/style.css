@@ -1,0 +1,39 @@
+div#wrapper {
+  width:60%;
+  margin: auto;
+  margin-top:30px;
+}
+
+main {
+  background-color: darkred;
+  color: goldenrod;
+}
+
+ul{
+  list-style-image: url("images/starwarsicon.png");
+  list-style-type: circle;
+  padding: 40px;
+  outline: dashed;
+}
+
+.border-image {
+  border: 10px solid transparent;
+  border-image: url("images/border.png") 10% round ;
+ border-image-repeat: repeat;
+  padding: 10px;
+}
+
+.mainimage {
+  height: 300px;
+  width: 300px;
+  border: 10px solid transparent;
+  border-image: url("images/border.png") 10% round;
+  padding: 1px;
+}
+
+body{
+  background-image: url("images/spacelooping.gif");
+   background-size: 120% 120%;
+
+}
+
