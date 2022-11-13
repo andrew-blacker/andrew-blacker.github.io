@@ -1,0 +1,18 @@
+#footer, #sidebar, #nav, #news, figure {
+  display:none;
+}
+
+body{
+  max-width:60%;
+  text-align: left;
+  font-size: 1.25em;
+  background-color: white;
+}
+
+p{
+  text-color:black;
+}
+
+a::after{
+  content: " (" attr(href) ") ";
+}
