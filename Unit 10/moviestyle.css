@@ -1,0 +1,23 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+table {
+  max-width: 80%;
+  border: 3px solid black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #7d85f7;
+  
+}
+
+td, th {
+  max-width: 80%;
+  border: 3px solid black;
+  padding: 5px;
+  border-radius: 5px;
+}
+ tr:nth-child(even) {
+  background-color: #df7c7c;;
